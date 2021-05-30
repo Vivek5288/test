@@ -9,6 +9,22 @@ Ans 1) :
   
 Ans 2):
 
+let onces = 0 ;
+var nums = '100001';
+let zeros = 0;
+let len = nums.length;
+for(let i = 0;i < len;  i++){
+	if(nums[i] == 0)
+     zeros++;
+  else if(nums[i] == 1)
+    onces++;
+  else{
+  }
+}
+console.log(zeros);
+console.log(onces);
+
+Ans 3):
 
   
   
